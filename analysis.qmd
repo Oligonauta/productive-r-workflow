@@ -1,3 +1,14 @@
+---
+title: "Penguin Analysis"
+format: html
+editor: visual
+---
+
+# Penguin Analysis
+
+*Importando dados sobre alguns pinguins e analisando sua estrutura*
+
+```{r}
 library(dplyr)
 library(ggplot2)
 library(readxl)
@@ -35,3 +46,4 @@ legend("topright",
 
 # Use the function
 create_scatterplot(data, "Adelie", "Torgersen")
+```
